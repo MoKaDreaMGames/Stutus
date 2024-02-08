@@ -23,19 +23,19 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('1125479277421404310')
+    .setApplicationId('1205175607160348713')
     .setType('STREAMING')
-    .setURL('https://bit.ly/DSH-TK') //Must be a youtube video link 
-    .setState('ᗪŠĤ-Ǥ₳MÏ₦Ǥ')
-    .setName('MostafaElsheikh')
-    .setDetails(`PR₳Ÿ FØR P₳ŁΞŠTÏ₦Ξ`)
+    .setURL('https://bit.ly/Moka-TK') //Must be a youtube video link 
+    .setState('YouTuber-MoKa')
+    .setName('MoKa-DreaMGames')
+    .setDetails(`DreaMGames Community`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1077716803435909232/1189688159571824770/DSH.png') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('PR₳Ÿ FØR P₳ŁΞŠTÏ₦Ξ') //Text when you hover the Large image
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1119192838547189782/1205176884929892422/DGC_c.gif') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('DreaMGames Community') //Text when you hover the Large image
     .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1077716803435909232/1169543166999937024/Verification.png') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('DSH GAMING') //Text when you hover the Small image
-    .addButton('🅸🅽🆂🆃🅰', 'https://bit.ly/DSH-Insta')
-    .addButton('🆃🅸🅺🆃🅾🅺', 'https://bit.ly/DSH-TK');
+    .setAssetsSmallText('MoKa-DreaMGames') //Text when you hover the Small image
+    .addButton('FaceBook', 'https://www.facebook.com/momenibrahimfouad')
+    .addButton('Youtube', 'https://www.youtube.com/channel/UCAbB5a2GyoxYC81fofHos9A');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" }); //dnd, online, idle, offline
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `MØŠT₳F₳|𝔼ŁŠĤ𝔼Ï₭Ĥ`;
+      const newDetails = `MoKa-DreaMGames`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
