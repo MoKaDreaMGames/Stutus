@@ -25,7 +25,7 @@ client.on('ready', async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1205175607160348713')
     .setType('STREAMING')
-    .setURL('https://bit.ly/Moka-TK') //Must be a youtube video link 
+    .setURL('https://bit.ly/DSH-TK') //Must be a youtube video link 
     .setState('YouTuber-MoKa')
     .setName('MoKa-DreaMGames')
     .setDetails(`DreaMGames Community`)
