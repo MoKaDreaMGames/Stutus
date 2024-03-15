@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('MoKa-DreaMGames')
     .setDetails(`DreaMGames Community`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1119192838547189782/1205176884929892422/DGC_c.gif') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1119192838547189782/1218343181070897152/DGC_c.gif?ex=66075182&is=65f4dc82&hm=3534638aef61d5be0df3d4b7b85f6de034eda26296f265e70d8dcec700717ca8&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('DreaMGames Community') //Text when you hover the Large image
-    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1077716803435909232/1169543166999937024/Verification.png') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1077716803435909232/1169543166999937024/Verification.png?ex=66052074&is=65f2ab74&hm=67a0cb0bb7296b43648c75f51798342fdab042bded588110a2f7c86df7c4fc30&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('MoKa-DreaMGames') //Text when you hover the Small image
     .addButton('FaceBook', 'https://www.facebook.com/momenibrahimfouad')
     .addButton('Youtube', 'https://www.youtube.com/channel/UCAbB5a2GyoxYC81fofHos9A');
